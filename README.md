@@ -9,7 +9,7 @@ Simple Telegram Bot for Getting Status of your server with Golang.
 
 ## Build docker image
 ```bash
-docker build -t alive-bot:latest
+docker build -t alive-bot:latest .
 ```
 
 ## Run docker container
