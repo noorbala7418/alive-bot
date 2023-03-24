@@ -17,3 +17,10 @@ docker build -t alive-bot:latest
 ```bash
 docker run -d --name alive-bot -e TELEGRAM_BOT_DEBUG_MODE=false -e TELEGRAM_BOT_ADMIN_ID=YOUR_TELEGRAM_USER_ID -e TELEGRAM_BOT_TOKEN="YOUR_BOT_TOKEN" --network host  alive-bot:latest
 ```
+
+### TODO
+
+- Flush firewall
+- Access from other accounts to bot with password
+- Refactor
+- Get status and restart or stop services
