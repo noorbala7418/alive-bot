@@ -15,7 +15,7 @@ docker build -t alive-bot:latest .
 ## Run docker container
 
 ```bash
-docker run -d --name alive-bot -e TELEGRAM_BOT_DEBUG_MODE=false -e TELEGRAM_BOT_ADMIN_ID=YOUR_TELEGRAM_USER_ID -e TELEGRAM_BOT_TOKEN="YOUR_BOT_TOKEN" alive-bot:latest
+docker run -d --name alive-bot --restart always -e TELEGRAM_BOT_DEBUG_MODE=false -e TELEGRAM_BOT_ADMIN_ID=YOUR_TELEGRAM_USER_ID -e TELEGRAM_BOT_TOKEN="YOUR_BOT_TOKEN" alive-bot:latest
 ```
 
 ### TODO
